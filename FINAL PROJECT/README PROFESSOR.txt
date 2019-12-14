@@ -1,0 +1,3 @@
+My partner and I flashed the BBB and was able to get a host computer onto it. We used it as a coprocessor by connecting our collector to it, then displaying collected data  from the sensor to the terminal in the BBB through UART/Display printf. We found out which USB is connected to the BBB through the command "dmesg | grep tty" then ran the command "sudo screen/dev/ttyACM0 115200" to output from the BBB. The sensor collected data using the Si7021 everytime the 't' key was pressed. Please watch video for demonstration.
+
+Thank you
